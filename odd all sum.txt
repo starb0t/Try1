@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+	int i,num,sum=0;
+	printf("enter the max value:");
+	scanf("%d",&num);
+	printf("odd number between 0 to %d are:\n",num);
+	for(i=1;i<=num;i++)
+	{
+		if(i%2!=0)
+		{
+			printf("%d\n",i);
+			sum=sum+i;
+		}
+	}
+	printf("the sum of odd number from 0 to %d is%d.",num,sum);
+}
